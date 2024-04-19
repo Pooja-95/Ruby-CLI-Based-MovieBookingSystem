@@ -1,5 +1,5 @@
-require_relative 'movie'
-require_relative 'show'
+require_relative '../models/movie'
+require_relative '../models/show'
 
 class TicketBooking
   class CustomBookingError < StandardError; end

@@ -1,9 +1,10 @@
-require_relative 'movie'
-require_relative 'show'
-require_relative 'movie_status'
-require_relative 'ticket_booking'
-require_relative 'cancel_booking'
-require_relative 'seed'
+require_relative '../models/movie'
+require_relative '../models/show'
+require_relative '../services/ticket_booking'
+require_relative '../services/cancel_booking'
+require_relative '../services/movie_status'
+require_relative '../scripts/script_movie_booking'
+require_relative '../seed'
 
 movies = load_movies
 
