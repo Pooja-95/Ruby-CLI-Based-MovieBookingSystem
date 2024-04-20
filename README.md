@@ -12,7 +12,7 @@ This is a simple command-line movie ticket booking system written in Ruby. It al
 
 **Requirements**
 
-To run the Movie Booking System, ensure you have Ruby installed on your machine.
+  To run the Movie Booking System, ensure you have Ruby installed on your machine.
 
 **Installation Process**
 1. Clone the repository: git clone https://github.com/Pooja-95/Ruby-CLI-Based-MovieBookingSystem.git 
@@ -25,7 +25,7 @@ To run the Movie Booking System, ensure you have Ruby installed on your machine.
 
 **Usage**(Interacting with the Booking System)
 
-Upon running the script, you will be presented with a menu where you can select various options:
+  Upon running the script, you will be presented with a menu where you can select various options:
 
   1. **Display Movie Status**:
       Choose the option to view the current status of all movies.
