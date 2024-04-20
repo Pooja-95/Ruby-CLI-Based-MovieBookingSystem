@@ -42,7 +42,8 @@ loop do
     title, show_time, num_of_tickets = get_booking_details
     puts CancelBooking.cancel_ticket(movies, title, show_time, num_of_tickets)
   when 4
-    break
+    puts "Exiting the application. Thank you!"
+    exit
   else
     puts "Invalid option. Please try again."
   end
